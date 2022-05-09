@@ -7,12 +7,26 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+<<<<<<< HEAD
+    "start": "nodemon --exec babel-node src/app.js"
+=======
     "start": "nodemon --exec npx babel-node src/app.js"
+>>>>>>> fb42b91f8f3ea3694fd0fa59f63a37d1ab23cabf
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
     "@babel/node": "^7.16.8",
     "@babel/preset-env": "^7.16.11",
+<<<<<<< HEAD
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "firebase": "^9.6.10",
+    "mongoose": "^6.2.9"
+=======
     "nodemon": "^2.0.15",
     "url-loader": "^4.1.1"
   },
@@ -29,5 +43,6 @@
     "mongoose": "^6.2.9",
     "multer": "^1.4.4",
     "nodemailer": "^6.7.5"
+>>>>>>> fb42b91f8f3ea3694fd0fa59f63a37d1ab23cabf
   }
 }

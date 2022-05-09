@@ -21,6 +21,10 @@ app.get("/", (req, res, next) => {
     next();
 });
 
+<<<<<<< HEAD
+const appointmentRouter = require("./api/routes/appointment");
+app.use("/appointments", appointmentRouter);
+=======
 const staffRouter = require("./api/routes/staffs");
 app.use("/staff", staffRouter);
 
@@ -30,6 +34,7 @@ app.use("/pharmacist", pharmacistRouter);
  const receptionistRouter = require("./api/routes/receptionist");
 app.use("/receptionist", receptionistRouter);
 
+>>>>>>> fb42b91f8f3ea3694fd0fa59f63a37d1ab23cabf
 
 
 

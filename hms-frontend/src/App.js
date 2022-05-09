@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+import React from 'react';
+import { BrowserRouter as Router, Route} from "react-router-dom";
+import Appointment from './components/customer.components/appointment.components/Customer.appointment.routes';
+
+function App() {
+
+  return (
+    <Router>
+     <Route path="/appointment" component={Appointment} />
+    </Router>
+      
+=======
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Login from './components/staff.components/admin.components/Login';
@@ -22,6 +35,7 @@ function App() {
       </div>
     </Router>
 
+>>>>>>> fb42b91f8f3ea3694fd0fa59f63a37d1ab23cabf
   );
 }
 
